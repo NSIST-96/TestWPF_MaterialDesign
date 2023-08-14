@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModel\" />
     <Folder Include="Styles\" />
     <Folder Include="Utilites\" />
     <Folder Include="Images\" />
