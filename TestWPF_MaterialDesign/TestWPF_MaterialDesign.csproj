@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="ViewModel\" />
-    <Folder Include="View\" />
     <Folder Include="Styles\" />
     <Folder Include="Utilites\" />
     <Folder Include="Images\" />

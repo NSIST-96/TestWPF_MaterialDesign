@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace TestWPF_MaterialDesign.Model
 {
     public class PageModel
-    {
+    { 
         public int  CustomerCount { get; set; }
         public string CustomerStatus { get; set; }
         public DateOnly OrderDate { get; set; }
