@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Styles\" />
-    <Folder Include="Utilites\" />
     <Folder Include="Images\" />
     <Folder Include="Fonts\" />
   </ItemGroup>
