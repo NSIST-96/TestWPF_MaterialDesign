@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TestWPF_MaterialDesign.View
@@ -17,7 +18,7 @@ namespace TestWPF_MaterialDesign.View
     /// <summary>
     /// Логика взаимодействия для Products.xaml
     /// </summary>
-    public partial class Products : Window
+    public partial class Products : UserControl
     {
         public Products()
         {

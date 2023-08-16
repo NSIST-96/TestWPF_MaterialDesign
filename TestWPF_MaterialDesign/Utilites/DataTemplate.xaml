@@ -3,7 +3,7 @@
                     xmlns:vm ="clr-namespace:TestWPF_MaterialDesign.ViewModel"
                     xmlns:view="clr-namespace:TestWPF_MaterialDesign.View" >
 
-    <DataTemplate DateType="{x:Type vm:HomeVM}">
+    <DataTemplate DataType="{x:Type vm:HomeVM}">
         <view:Home/>
     </DataTemplate>
 
@@ -23,11 +23,11 @@
         <view:Transactions/>
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:ShipmentVM}">
+    <DataTemplate DataType="{x:Type vm:ShipmentsVM}">
         <view:Shipments/>
     </DataTemplate>
 
-    <DataTemplate DataType="{x:Type vm:SettingVM}">
+    <DataTemplate DataType="{x:Type vm:SettingsVM}">
         <view:Settings/>
     </DataTemplate>
 

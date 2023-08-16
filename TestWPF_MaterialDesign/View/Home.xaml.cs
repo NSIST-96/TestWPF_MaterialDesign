@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TestWPF_MaterialDesign.View
@@ -17,7 +18,7 @@ namespace TestWPF_MaterialDesign.View
     /// <summary>
     /// Логика взаимодействия для Home.xaml
     /// </summary>
-    public partial class Home : Window
+    public partial class Home : UserControl
     {
         public Home()
         {
