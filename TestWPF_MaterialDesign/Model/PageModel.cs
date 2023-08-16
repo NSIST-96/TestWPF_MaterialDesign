@@ -14,5 +14,6 @@ namespace TestWPF_MaterialDesign.Model
         public decimal TransactionValue { get; set; }
         public TimeOnly ShirmentDelivery { get; set; }
         public bool LocationStatus { get; set; }
+        public string ProductStatus { get; set; }
     }
 }
