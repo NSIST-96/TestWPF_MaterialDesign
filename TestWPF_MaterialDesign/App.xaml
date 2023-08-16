@@ -4,6 +4,20 @@
              xmlns:local="clr-namespace:TestWPF_MaterialDesign"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="Styles/Page.xaml"/>
+                <ResourceDictionary Source="Styles/Image.xaml"/>
+                <ResourceDictionary Source="Style/Text.xaml"/>
+                <ResourceDictionary Source="Style/Button.xaml"/>
+                <ResourceDictionary Source="Utilites/DataTemplates.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+        
     </Application.Resources>
 </Application>
